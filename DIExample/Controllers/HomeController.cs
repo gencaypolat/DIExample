@@ -12,7 +12,7 @@ namespace DIExample.Controllers
         public HomeController()
         {
             // create object of service class
-            _citiesService = null;
+            _citiesService = null;  //new CitiesService();
         }
         [Route("/")]
         public IActionResult Index()
